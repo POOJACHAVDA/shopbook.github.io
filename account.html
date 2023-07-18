@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ACCOUNT</title>
+  <style>
+    body {
+    
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #463e58;
+    }
+    
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    
+    button {
+      background-color: #353648;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+    
+  </style>
+  <link rel="stylesheet" href="mycss.css">
+  <script>
+    function redirectToLink() {
+      window.location.href = "LOGIN.html";
+    }
+  </script> 
+</head>
+<body>
+  <header>
+    <h1>BOOKVERSE</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">HOME</a></li>  
+        <li><a href="books.html">BOOKS</a></li>  
+        <li><a href="account.html">ACCOUNT</a></li> 
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+      
+      
+    </nav>
+  </header>
+  <div class="container">
+    <h2>ENTER YOUR DETAILS</h2>
+    <form action="login.php" method="post">
+      <label for="FIRSTNAME">FIRSTNAME:</label>
+      <input type="text" id="FIRSTNAME" name="FIRSTNAME" required>
+      <label for="LASTNAME">LASTNAME:</label>
+      <input type="text" id="LASTNAME" name="LASTNAME" required>
+      <label for="PHONE NUMBER">PHONE NUMBER:</label>
+      <input type="text" id="PHONE NUMBER" name="PHONE NUMBER" required>
+      
+      <label for="EMAIL">EMAIL:</label>
+      <input type="text" id="EMAIL" name="EMAIL" required>
+      
+      <button type="submit">sign up</button>
+      <p align="center"><b>if already have an account</b><br/><br/>
+        <button onclick="redirectToLink()">login</button></p>
+
+    </form>
+  </div>
+  <footer>
+    <div class="footer-address">
+      <p align="center"><h2>ADDRESS</h2></p><br/>
+      <span class="footer-icon"><i class="footer-address"></i></span>
+      <span class="footer-text">Ahmedabad,Gujarat,India</span>
+    </div><br/>
+    <div class="footer-phone">
+      <span class="footer-icon">&#9742;</span>
+      <span class="footer-text">+91 9913120170</span>
+    </div><br/>
+    <div class="footer-email">
+      <span class="footer-icon">&#9993;</span>
+      <span class="footer-text">poojachawda2501@gmail.com</span>
+    </div>
+    <br/><br/>
+  
+  <p>&copy; 2023 BOOKVERSE. All rights reserved.</p>
+</footer>
+</body>
+</html>

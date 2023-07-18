@@ -1,0 +1,77 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #5a5b74;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #search{
+    background-image: url(search.png);
+    background-size:40px ;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 50px;
+  }
+  
+  #content {
+    margin: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .product {
+    display: inline-block;
+    width: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .footer-icon {
+    margin-right: 5px;
+  }
+  
+  .footer-text {
+    vertical-align: middle;
+  }
+  
+  

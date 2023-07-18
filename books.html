@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>bookverse.in</title>
+  <style>
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+  
+    <link rel="stylesheet" href="mycss.css">
+    
+</head>
+<body>
+ 
+     <header>
+    <h1>BOOKVERSE</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">HOME</a></li>  
+        <li><a href="books.html">BOOKS</a></li>  
+        <li><a href="account.html">ACCOUNT</a></li> 
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+      <input type="text" id="search-input" placeholder="search for books">
+      <button type="submit">search</button>
+      
+    </nav>
+
+  </header>
+
+  <div id="container">
+    <h2>Available books</h2>
+    <div class="product">
+      <img src="verity (3).jpg" alt="book 1" width="350px">
+      <h3>verity by colleen hoover</h3>
+      <p>price:&#8377;250</p>
+      <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+      <button class="add-to-cart-btn" onclick="addToCart('product 1')">Add to Cart</button>
+      </div>
+    <div class="product">
+      <img src="shatter me.jpg" alt="book 2" width="256px" >
+      <h3>shatter me by tahereh mafi</h3>
+      <p>price:&#8377;250</p>
+      <p>&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+      <button class="add-to-cart-btn" onclick="addToCart('product 2')">Add to Cart</button>
+      </div>
+    <div class="product">
+      <img src="ram.jpg" alt="book 3" width="225px">
+      <h3>ram by amish</h3>
+      <p>price:&#8377;199</p>
+      <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+      <button class="add-to-cart-btn" onclick="addToCart('product 3')">Add to Cart</button>
+      
+    </div>
+    <div class="product">
+      <img src="atomic habits.jpg" alt="book 4" width="350px">
+      <h3>ATOMIC HABITS</h3>
+      <p>price:&#8377;199</p>
+      <p>&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+      <button class="add-to-cart-btn" onclick="addToCart('product 4')">Add to Cart</button>
+      
+    </div>
+    <div class="product">
+      <img src="meluha.jpg" alt="book 5" width="225px">
+      <h3>meluha by amish</h3>
+      <p>price:&#8377;299</p>
+      <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+      <button class="add-to-cart-btn" onclick="addToCart('product 5')">Add to Cart</button>
+      
+    </div>
+    <div class="product">
+        <img src="bt.jpg" alt="book 6" width="250px">
+        <h3>THE BOOK THIEF</h3>
+        <p>price:&#8377;299</p>
+        <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <button class="add-to-cart-btn" onclick="addToCart('product 6')">Add to Cart</button>
+        
+      </div>
+      <div class="product">
+        <img src="mooe.jpg" alt="book 7" width="235px">
+        <h3>MURDER ON THE ORIENTED EXPRESS</h3>
+        <p>price:&#8377;199</p>
+        <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <button class="add-to-cart-btn" onclick="addToCart('product 7')">Add to Cart</button>
+        
+      </div>
+      <div class="product">
+        <img src="thefineprint.jpg" alt="book 8" width="240px">
+        <h3>THE FINE PRINT</h3>
+        <p>price:&#8377;299</p>
+        <p>&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+        <button class="add-to-cart-btn" onclick="addToCart('product 8')">Add to Cart</button>
+        
+      </div>
+      <div class="product">
+        <img src="thesilentpatient.jpg" alt="book 9" width="250px">
+        <h3>THE SILENT PATIENT</h3>
+        <p>price:&#8377;250</p>
+        <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <button class="add-to-cart-btn" onclick="addToCart('product 9')">Add to Cart</button>
+        
+      </div>
+      <div class="product">
+        <img src="ikigai.png" alt="book 10" width="350px">
+        <h3>ikigai</h3>
+        <p>price:&#8377;299</p>
+        <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <button class="add-to-cart-btn" onclick="addToCart('product 10')">Add to Cart</button>
+        
+      </div>
+  
+
+    <!-- Add more product elements as needed -->
+  </div>
+
+  
+
+    <footer>
+      <div class="footer-address">
+        <p align="center"><h2>ADDRESS</h2></p><br/>
+        <span class="footer-icon"><i class="footer-address"></i></span>
+        <span class="footer-text">Ahmedabad,Gujarat,India</span>
+      </div><br/>
+      <div class="footer-phone">
+        <span class="footer-icon">&#9742;</span>
+        <span class="footer-text">+91 9913120170</span>
+      </div><br/>
+      <div class="footer-email">
+        <span class="footer-icon">&#9993;</span>
+        <span class="footer-text">poojachawda2501@gmail.com</span>
+      </div>
+      <br/><br/>
+    
+    <p>&copy; 2023 BOOKVERSE. All rights reserved.</p>
+  </footer>
+  <ul id="cart-items"></ul>
+
+  <script src="myjavas.js"></script>
+</body>
+</html>
